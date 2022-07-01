@@ -50,14 +50,5 @@ If you want to learn more about building native executables, please consult http
 ## Related Guides
 
 - Camel Core ([guide](https://camel.apache.org/camel-quarkus/latest/reference/extensions/core.html)): Camel core functionality and basic Camel languages: Constant, ExchangeProperty, Header, Ref, Simple and Tokenize
-- RESTEasy Classic ([guide](https://quarkus.io/guides/resteasy)): REST endpoint framework implementing JAX-RS and more
 - Camel AWS 2 S3 Storage Service ([guide](https://camel.apache.org/camel-quarkus/latest/reference/extensions/aws2-s3.html)): Store and retrieve objects from AWS S3 Storage Service using AWS SDK version 2.x
 - Camel FTP ([guide](https://camel.apache.org/camel-quarkus/latest/reference/extensions/ftp.html)): Upload and download files to/from SFTP, FTP or SFTP servers
-
-## Provided Code
-
-### RESTEasy JAX-RS
-
-Easily start your RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
