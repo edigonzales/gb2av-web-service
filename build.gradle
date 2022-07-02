@@ -9,6 +9,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.apache.camel.quarkus:camel-quarkus-sql'
+    implementation 'io.quarkus:quarkus-agroal'
+    implementation 'io.quarkus:quarkus-jdbc-postgresql'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-zipfile'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation enforcedPlatform("${quarkusPlatformGroupId}:quarkus-camel-bom:${quarkusPlatformVersion}")
     implementation 'org.apache.camel.quarkus:camel-quarkus-core'
